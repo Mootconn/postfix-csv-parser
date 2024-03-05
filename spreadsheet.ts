@@ -60,7 +60,7 @@ for (let row = 0; row < rows.length; row++) {
     if (stack.length == 1 && stack[0] != null) {
       table[row][column] = stack[0];
     } else {
-      table[row][column] = "#ERR"; // A cell has two operands and no operator
+      table[row][column] = "#ERR";
     }
   }
   console.log(table[row]);
