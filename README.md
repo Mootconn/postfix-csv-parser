@@ -1,4 +1,6 @@
 # Summary
+To run use 'deno -run ./spreadsheet.ts' or 'npx tsx ./spreadsheet.ts' from your command line.
+
 I have used 'for' loops to iterate over the rows and columns as I think this looks
 the cleanest and is easy to understand when you can reference 'row' and 'column'
 directly rather than 'i' and 'j'. The current version of this parser takes the
